@@ -1,66 +1,68 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
-  },
+  "title": "Your Vision, Our Expertise",
+  "paragraph": "Building dreams into reality with precision, craftsmanship, and dedication. Let us help you create spaces that stand the test of time."
+},
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+    "paragraph": "Upgrade Construction London Ltd is a trusted construction company based in London, dedicated to delivering exceptional building solutions. We specialize in a wide range of services including brickwork, steelwork, landscaping, groundwork, deep drainage, internal shallow drainage for new houses, and carpentry for new structures. Our focus is on high-quality craftsmanship and reliability. From laying foundations and concrete driveways to paving, curbing, finishing work, and building robust drainage systems, we bring expertise to every project we take on.",
+   "Why": [
+  "Brick & Steel Work Experts",
+  "New Builds & Foundations",
+  "Concrete & Driveway Specialists",
+  "Landscaping, Finishing & Carpentry",
+  "Deep & Internal Shallow Drainage for New Homes"
+],
+"Why2": [
+  "Advanced Machinery & Skilled Operators",
+  "Efficient Project Management",
+  "Quality & Safety Focused",
+  "Reliable & Timely Service"
+]
+
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "Expected Outcome",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Expected Outcome",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Expected Outcome",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Expected Outcome",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Expected Outcome",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Expected Outcome",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Expected Outcome",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Expected Outcome",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Expected Outcome",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
@@ -68,35 +70,66 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Brick & Stone Work",
+      "text": "Expert bricklaying, stone installation, and masonry services for durable and aesthetically pleasing structures."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-building",
+      "name": "Steel Fabrication",
+      "text": "Quality steelwork services, including structural frameworks, beams, and custom fabrication solutions."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-tree",
+      "name": "Landscaping",
+      "text": "Complete landscaping services, including garden design, hardscaping, and outdoor features for stunning spaces."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-road",
+      "name": "Groundwork & Foundations",
+      "text": "Comprehensive groundwork, excavation, and foundation services to support safe and stable construction."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-truck",
+      "name": "Heavy Equipment Services",
+      "text": "Equipped with advanced machinery like diggers, dump trucks, and rollers, operated by skilled professionals."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-wrench",
+      "name": "Finishing & Concrete Work",
+      "text": "High-quality concrete pouring, driveways, paving, and surface finishing work for seamless, polished results"
+    },
+    {
+      "icon": "fa fa-tint",
+      "name": "Deep Drainage",
+      "text": "Specialized deep drainage installation for effective water management in new house constructions."
+    },
+    {
+      "icon": "fa fa-cogs",
+      "name": "Internal Shallow Drainage",
+      "text": "Efficient internal shallow drainage systems for proper waste and water disposal in homes."
+    },
+    {
+      "icon": "fa fa-paint-brush",
+      "name": "Carpentry for New Structures",
+      "text": "Skilled carpentry services for building custom frameworks, fittings, and finishes for new houses."
+    },
+    {
+      "icon": "fa fa-bolt",
+      "name": "Electrician Services",
+      "text": "Professional electrical installation and repair services, ensuring safety and functionality for residential properties."
+    },
+    {
+      "icon": "fa fa-key",
+      "name": "Bar Doors Installation",
+      "text": "Stylish and functional bar doors tailored to enhance residential and commercial spaces."
+    },
+    {
+      "icon": "fa fa-home",
+      "name": "Kitchen Fitting",
+      "text": "Complete kitchen fitting services, including cabinetry, countertops, and custom installations for a perfect kitchen setup."
     }
   ],
+
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
@@ -129,6 +162,14 @@
       "name": "Johnathan Doe"
     }
   ],
+  "Map": {
+    "title": "Head Office",
+    "address": "19 Grosvenor Road, Southall, London UB2 4BP",
+    "latitude": 51.509865,
+    "longitude": -0.406093,
+    "description": "Our main office located in the heart of Southall, London.",
+    "iframeSrc": "https://www.google.com/maps/embed?pb=..."
+  },
   "Team": [
     {
       "img": "img/team/01.jpg",
@@ -152,33 +193,34 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "19 Grosvenor Road, Southall, London UB2 4BP",
+    "phone": "+0 740 233 7730",
+    "email": "upgradeconstructions@yahoo.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+ 
+    "Features": [
+  {
+    "icon": "fa fa-cogs",
+    "title": "Expert Craftsmanship",
+    "text": "We ensure top-quality work, from bricklaying to steel fabrication, with durability and precision."
+  },
+  {
+    "icon": "fa fa-shield",
+    "title": "Safety First",
+    "text": "We prioritize safety, adhering to strict health and safety standards on every site."
+  },
+  {
+    "icon": "fa fa-flag-checkered",
+    "title": "On-Time Delivery",
+    "text": "We ensure timely project completion without compromising quality."
+  },
+  {
+    "icon": "fa fa-users",
+    "title": "Skilled Workforce",
+    "text": "Our experienced team, from laborers to managers, delivers high-quality construction services."
+  }
+]
 }

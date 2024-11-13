@@ -105,7 +105,18 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>
-                {props.data ? props.data.address : "loading"}
+                {props.data ? (
+        <a
+          href={`https://www.google.com/maps?q=${props.data.latitude},${props.data.longitude}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: 'white' }}
+        >
+          {props.data.address}
+        </a>
+      ) : (
+        "loading"
+      )}
               </p>
             </div>
             <div className="contact-item">
@@ -113,7 +124,9 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                <a href={`tel:${props.data ? props.data.phone : ""}`} style={{ color: 'white' }}>
+      {props.data ? props.data.phone : "loading"}
+    </a>
               </p>
             </div>
             <div className="contact-item">
@@ -121,11 +134,17 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
-                {props.data ? props.data.email : "loading"}
+                {props.data ? (
+        <a href={`mailto:${props.data.email}`} style={{ color: 'white' }}>
+          {props.data.email}
+        </a>
+      ) : (
+        "loading"
+      )}
               </p>
             </div>
           </div>
-          <div className="col-md-12">
+          {/* <div className="col-md-12">
             <div className="row">
               <div className="social">
                 <ul>
@@ -147,16 +166,14 @@ export const Contact = (props) => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
+          &copy; Upgrade Construction London Ltd.
+           
           </p>
         </div>
       </div>
