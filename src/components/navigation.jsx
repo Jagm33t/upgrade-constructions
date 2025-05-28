@@ -27,7 +27,7 @@ export const Navigation = (props) => {
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
             <div className="logo-text small-logo-text" style={{ display: "flex" }}>
-              <p style={{ marginRight: "10px" }}>Upgrade Construction London</p>
+              <p style={{ marginRight: "10px" }}>Upgrade Constructions London</p>
             </div>
           </a>
         </div>
