@@ -128,15 +128,7 @@ export const Contact = (props) => {
       {props.data ? props.data.phone : "loading"}
     </a>
               </p>
-                            <p>
-                <span>
-                  <i className="fa fa-phone"></i> Dilbeer
-                </span>{" "}
-                <a href={`tel:${props.data ? props.data.phone2 : ""}`} style={{ color: 'white' }}>
-      {props.data ? props.data.phone2 : "loading"}
-    </a>
-              </p>
-
+                          
             </div>
             <div className="contact-item">
   <p>
